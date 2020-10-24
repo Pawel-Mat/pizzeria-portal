@@ -2,11 +2,12 @@
   "name": "pizzeria-portal",
   "version": "0.1.0",
   "private": true,
-  
+  "homepage": "/panel/",
   "scripts": {
     "start": "run-p start:* ",
     "start-silent": "run-p start > /dev/null",
     "start:react": "react-scripts start",
+    "start:api": " yarn build && node server.js",
     "start-and-test": "run-p start-silent test ",
     "build": "react-scripts build",
     "test": "react-scripts test --noStackTrace",
@@ -24,9 +25,6 @@
       "yarn test-related --",
       "eslint"
     ]
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
