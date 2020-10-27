@@ -2,4 +2,23 @@
 
 .component {
   padding: $base-size;
+  margin: 40px auto;
+  text-align: center;
+  max-width: 450px;
+}
+.formContainer {
+  margin-top: 15px;
+}
+
+.textField {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.title {
+  margin: 20px;
+}
+
+.button {
+  margin: 30px;;
 }

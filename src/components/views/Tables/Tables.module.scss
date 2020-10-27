@@ -2,4 +2,26 @@
 
 .component {
   padding: $base-size;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.title {
+  margin: 20px;
+}
+
+
+.buttonGreen {
+  background-color: $color-green;
+}
+
+.buttonOrange {
+  background-color: $color-yellow;
+}
+.buttonRed {
+  background-color: $color-red;
+}
+
+.calendar {
+  margin: 40px;
 }
