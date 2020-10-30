@@ -55,7 +55,9 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "react-test-renderer": "^16.14.0",
-    "redux": "^4.0.5"
+    "redux": "^4.0.5",
+    "redux-axios": "^0.0.2",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "husky": "^4.3.0",
